@@ -1,0 +1,45 @@
+/* * */
+* {
+    
+}
+
+/* По имени */
+body {
+    background: #eee;
+}
+
+/* По классу */
+.card {
+    padding: 10px;
+    background: #fff;
+    /* margin-bottom: 10px; */
+}
+
+.html {
+    background: orange;
+    color: white;
+}
+
+.css {
+    background: blue;
+    color: white;
+}
+
+
+
+/* По классу, но обращение к параграфу */
+
+.card p {
+    font-size: 14px;
+   
+}
+
+/* По ID */
+#header {
+    background: #ddd;
+    padding: 10px;
+}
+
+#header, .html, .css {
+    margin-bottom: 10px;
+}
